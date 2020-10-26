@@ -7,9 +7,9 @@
 #
 # Prerequisites:
 # 1) User must have adequate rights to view the vCenter VM inventory. Read-only permissions at minimum are required.
-# 2) Specify the target vCenter FQDN on line 63 (Replace "vcenter.domain" with your vCenter FQDN).
-# 3) User must have adequate rights to save the log file to the same directory where the script resides. Modify path in line 17 as needed.
-# 4) User must have adequate rights to save output file to the same directory where the script resides. Modify path in line 63 as needed.
+# 2) Specify the target vCenter FQDN on line 64 (Replace "vcenter.domain" with your vCenter FQDN).
+# 3) User must have adequate rights to save the log file to the same directory where the script resides. Modify path in line 18 as needed.
+# 4) User must have adequate rights to save output file to the same directory where the script resides. Modify path in line 88 as needed.
 #################################################################################
 ## Prepare Logging
 function Get-TimeStamp {
